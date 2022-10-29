@@ -8,7 +8,7 @@ const ProductListPagination = ({ data }) => {
   const totalPages = Math.ceil(meta.total / meta.limit);
 
   return totalPages > 1 ? (
-    <div className="flex justify-center items-center gap-2 md:gap-4">
+    <div className="flex justify-center items-center gap-2 lg:gap-4">
       <Link
         href={stringify({ page: meta.page - 1 })}
         className={cx(

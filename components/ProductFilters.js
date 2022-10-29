@@ -53,6 +53,7 @@ const ProductFilters = ({ data }) => {
         data={data.filters.categories}
         filterKey="category"
         isMultipleSelect={false}
+        isScrollable={false}
       />
 
       <FilterSection

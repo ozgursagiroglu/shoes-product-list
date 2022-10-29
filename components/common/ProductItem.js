@@ -39,23 +39,21 @@ const ProductItem = ({ data, index }) => {
         </div>
       </div>
       <Link href="/" passHref>
-        <div className="font-medium text-xs md:text-sm mb-1 text-gray-600 whitespace-nowrap text-ellipsis overflow-hidden ">
+        <div className="font-medium text-xs lg:text-sm mb-1 text-gray-600 whitespace-nowrap text-ellipsis overflow-hidden ">
           {data.brand}
         </div>
       </Link>
 
       <Link href="/" passHref>
-        <div className="font-semibold text-sm md:text-base mb-1 h-12">
+        <div className="text-black font-medium text-sm lg:text-base mb-1 h-12">
           {data.name}
         </div>
       </Link>
-      <div className="flex items-center justify-start text-sm md:text-base">
+      <div className="flex items-center justify-start text-sm lg:text-base">
         {data.price !== data.sale_price ? (
           <span className="text-gray-500 line-through pr-1">${data.price}</span>
         ) : null}
-        <span className="text-orange-500 font-semibold">
-          ${data.sale_price}
-        </span>
+        <span className="text-orange-500 font-medium">${data.sale_price}</span>
       </div>
     </div>
   );

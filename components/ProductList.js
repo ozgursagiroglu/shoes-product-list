@@ -1,9 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import cx from 'classnames';
 import ProductItem from './common/ProductItem';
 
-const ProductList = ({ data }) => {
+const ProductList = ({ data, column }) => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-6">
+    <div
+      className={cx('grid grid-cols-2 md:grid-cols-3 gap-6 mb-6', {
+        'lg:grid-cols-3': column === 3,
+        'lg:grid-cols-4': column === 4,
+      })}>
       {data.items.map((item, index) => (
         <ProductItem key={index} index={index} data={item} />
       ))}

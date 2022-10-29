@@ -53,7 +53,7 @@ export const resolvers = {
 
       if (['asc', 'desc'].includes(sort)) {
         data = data.sort((a, b) =>
-          sort === 'desc'
+          sort === 'asc'
             ? a.sale_price - b.sale_price
             : b.sale_price - a.sale_price
         );
