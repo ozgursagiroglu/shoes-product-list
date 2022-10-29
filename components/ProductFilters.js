@@ -1,24 +1,22 @@
 import { useRouter } from 'next/router';
 import { useCallback, useMemo, useState } from 'react';
 import FilterSection from './common/FilterSection';
-import qs from 'qs';
+import useSearchParams from '../hooks/useSearchParams';
+import { MULTIPLE_FILTER_KEYS } from '../constants/app';
 
 const ProductFilters = ({ data }) => {
   const router = useRouter();
+  const { stringify } = useSearchParams();
+
   const [filters, setFilters] = useState(() => {
     const routerQueries = router.query;
     const prevFilters = {};
 
     Object.keys(routerQueries).forEach(key => {
-      const isMultiple = key.includes('[');
       const value = routerQueries[key];
 
-      if (isMultiple) {
-        prevFilters[key.replace('[', '').replace(']', '')] = Array.isArray(
-          value
-        )
-          ? value
-          : [value];
+      if (MULTIPLE_FILTER_KEYS.includes(key)) {
+        prevFilters[key] = Array.isArray(value) ? value : [value];
       } else {
         prevFilters[key] = value;
       }
@@ -28,20 +26,22 @@ const ProductFilters = ({ data }) => {
   });
 
   const combinedFilters = useMemo(() => {
-    const filters = {
+    const filterObject = {
       brands: [],
       categories: [],
     };
 
-    data.forEach(product => {
-      filters.brands.push(product.brand);
+    data.items.forEach(product => {
+      if (!filterObject.brands.includes(product.brand)) {
+        filterObject.brands.push(product.brand);
+      }
 
-      if (!filters.categories.includes(product.category)) {
-        filters.categories.push(product.category);
+      if (!filterObject.categories.includes(product.category)) {
+        filterObject.categories.push(product.category);
       }
     });
 
-    return filters;
+    return filterObject;
   }, [data]);
 
   const handleFilterChange = useCallback(e => {
@@ -54,12 +54,6 @@ const ProductFilters = ({ data }) => {
         ? splitted.concat(value)
         : splitted.filter(item => item !== value);
 
-      if (!newValue.length) {
-        delete prev[name];
-
-        return { ...prev };
-      }
-
       return {
         ...prev,
         [name]: newValue,
@@ -68,15 +62,8 @@ const ProductFilters = ({ data }) => {
   }, []);
 
   const handleApplyFilters = useCallback(() => {
-    const queryStrings = qs.stringify(filters, {
-      arrayFormat: 'brackets',
-      addQueryPrefix: true,
-    });
-
-    router.push(`/${queryStrings}`, null, {
-      shallow: true,
-    });
-  }, [router, filters]);
+    router.push(`/${stringify(filters)}`, null);
+  }, [stringify, router, filters]);
 
   return (
     <>
@@ -106,7 +93,9 @@ const ProductFilters = ({ data }) => {
 };
 
 ProductFilters.defaultProps = {
-  data: [],
+  data: {
+    items: [],
+  },
 };
 
 export default ProductFilters;

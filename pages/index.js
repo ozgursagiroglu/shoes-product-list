@@ -4,8 +4,10 @@ import ProductList from '../components/ProductList';
 import { gql } from '@apollo/client';
 import client from '../apollo-client';
 import ProductFilters from '../components/ProductFilters';
+import ProductListOptions from '../components/ProductListOptions';
+import ProductListPagination from '../components/ProductListPagination';
 
-export default function Home({ products }) {
+export default function Home({ data }) {
   return (
     <div>
       <Head>
@@ -17,11 +19,15 @@ export default function Home({ products }) {
       <Header />
 
       <div className="container mx-auto flex items-start flex-grow">
-        <div className="w-64">
-          <ProductFilters data={products} />
+        <div className="w-64 flex-shrink-0">
+          <ProductFilters data={data} />
         </div>
         <div className="w-full pl-6">
-          <ProductList data={products} />
+          <div className="mb-12">
+            <ProductListOptions />
+            <ProductList data={data} />
+            <ProductListPagination data={data} />
+          </div>
         </div>
       </div>
     </div>
@@ -29,36 +35,42 @@ export default function Home({ products }) {
 }
 
 export async function getServerSideProps(ctx) {
-  const { category } = ctx.query;
-  const brands = ctx.query['brands[]'];
-
-  console.log(brands);
+  const { category, brands, sort = 'asc', page = 1 } = ctx.query;
 
   const { data } = await client.query({
     query: gql`
-      query ($filter: ProductsFilter) {
-        getProducts(filter: $filter) {
-          category
-          name
-          image
-          price
-          sale_price
-          subcategory
-          brand
+      query ($filter: ProductsFilter, $sort: Sort, $page: Int) {
+        getProducts(filter: $filter, sort: $sort, page: $page) {
+          items {
+            category
+            name
+            image
+            price
+            sale_price
+            subcategory
+            brand
+          }
+          meta {
+            page
+            limit
+            total
+          }
         }
       }
     `,
     variables: {
+      page,
       filter: {
         ...(category ? { category } : null),
         ...(brands ? { brand: brands } : null),
       },
+      sort: sort,
     },
   });
 
   return {
     props: {
-      products: data.getProducts,
+      data: data.getProducts,
     },
   };
 }

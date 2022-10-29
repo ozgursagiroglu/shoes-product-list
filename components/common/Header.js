@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <div className="container mx-auto grid grid-cols-3 h-16 items-center sticky top-0 z-10 bg-white">
+    <div className="container mx-auto grid grid-cols-3 h-24 items-center sticky top-0 z-20 bg-white">
       <div></div>
       <div className="text-center">
         <Link href="/" passHref>

@@ -2,800 +2,800 @@
   {
     "category": "Home",
     "name": "Kitchen Apparatus",
-    "price": "179.95",
-    "sale_price": "125.99",
+    "price": 179.95,
+    "sale_price": 125.99,
     "subcategory": "Kitchen",
     "brand": "The Fitness Company"
   },
   {
     "category": "Automotive",
     "name": "Tire Mechanism",
-    "price": "139.95",
-    "sale_price": "111.99",
+    "price": 139.95,
+    "sale_price": 111.99,
     "subcategory": "Tire",
     "brand": "Graphic Design Corp."
   },
   {
     "category": "Clothing",
     "name": "Kids Gizmo",
-    "price": "103",
-    "sale_price": "92.99",
+    "price": 103,
+    "sale_price": 92.99,
     "subcategory": "Kids",
     "brand": "Concrete, Incorporated"
   },
   {
     "category": "Activity",
     "name": "Swimming Kit",
-    "price": "148",
-    "sale_price": "118.99",
+    "price": 148,
+    "sale_price": 118.99,
     "subcategory": "Swimming",
     "brand": "Staffing, Incorporated"
   },
   {
     "category": "Clothing",
     "name": "Kids Gizmo",
-    "price": "155.95",
-    "sale_price": "139.99",
+    "price": 155.95,
+    "sale_price": 139.99,
     "subcategory": "Kids",
     "brand": "Sporting Goods, LLC"
   },
   {
     "category": "Home",
     "name": "Cleaning Gizmo",
-    "price": "125",
-    "sale_price": "87",
+    "price": 125,
+    "sale_price": 87,
     "subcategory": "Cleaning",
     "brand": "Mechanical Engineering, Inc."
   },
   {
     "category": "Beauty",
     "name": "Personal Thingamajig",
-    "price": "189.95",
-    "sale_price": "132",
+    "price": 189.95,
+    "sale_price": 132,
     "subcategory": "Personal",
     "brand": "Electrical Manufacturing, Inc."
   },
   {
     "category": "Activity",
     "name": "Outdoors Apparatus",
-    "price": "66.99",
-    "sale_price": "39.99",
+    "price": 66.99,
+    "sale_price": 39.99,
     "subcategory": "Outdoors",
     "brand": "Architecture, LLC"
   },
   {
     "category": "Home",
     "name": "Storage Apparatus",
-    "price": "180.99",
-    "sale_price": "162.95",
+    "price": 180.99,
+    "sale_price": 162.95,
     "subcategory": "Storage",
     "brand": "Computer Networking, Inc."
   },
   {
     "category": "Home",
     "name": "Kitchen Component",
-    "price": "61.95",
-    "sale_price": "48.95",
+    "price": 61.95,
+    "sale_price": 48.95,
     "subcategory": "Kitchen",
     "brand": "Fishery, Ltd."
   },
   {
     "category": "Home",
     "name": "Gardening Accessory",
-    "price": "192.95",
-    "sale_price": "153.99",
+    "price": 192.95,
+    "sale_price": 153.99,
     "subcategory": "Gardening",
     "brand": "Aviation, Incorporated"
   },
   {
     "category": "Entertainment",
     "name": "Toy Rig",
-    "price": "74.95",
-    "sale_price": "51",
+    "price": 74.95,
+    "sale_price": 51,
     "subcategory": "Toy",
     "brand": "The Sporting Goods Company"
   },
   {
     "category": "Activity",
     "name": "Swimming Attachment",
-    "price": "117.95",
-    "sale_price": "81.95",
+    "price": 117.95,
+    "sale_price": 81.95,
     "subcategory": "Swimming",
     "brand": "Textiles, Inc."
   },
   {
     "category": "Home",
     "name": "Bedding Kit",
-    "price": "49.95",
-    "sale_price": "39",
+    "price": 49.95,
+    "sale_price": 39,
     "subcategory": "Bedding",
     "brand": "Security Co."
   },
   {
     "category": "Entertainment",
     "name": "Toy Rig",
-    "price": "81",
-    "sale_price": "64.99",
+    "price": 81,
+    "sale_price": 64.99,
     "subcategory": "Toy",
     "brand": "Banking, Inc."
   },
   {
     "category": "Health",
     "name": "Medicine Whatchamacallit",
-    "price": "88.99",
-    "sale_price": "70.95",
+    "price": 88.99,
+    "sale_price": 70.95,
     "subcategory": "Medicine",
     "brand": "Marketing, Inc."
   },
   {
     "category": "Electronics",
     "name": "Technology Kit",
-    "price": "11.95",
-    "sale_price": "8",
+    "price": 11.95,
+    "sale_price": 8,
     "subcategory": "Technology",
     "brand": "Entertainment, LLC"
   },
   {
     "category": "Home",
     "name": "Furniture Item",
-    "price": "193",
-    "sale_price": "173.95",
+    "price": 193,
+    "sale_price": 173.95,
     "subcategory": "Furniture",
     "brand": "Private Equity, Ltd."
   },
   {
     "category": "Clothing",
     "name": "Mens Component",
-    "price": "148",
-    "sale_price": "118.95",
+    "price": 148,
+    "sale_price": 118.95,
     "subcategory": "Mens",
     "brand": "Wine, Incorporated"
   },
   {
     "category": "Activity",
     "name": "Beach Equipment",
-    "price": "118.95",
-    "sale_price": "94.95",
+    "price": 118.95,
+    "sale_price": 94.95,
     "subcategory": "Beach",
     "brand": "The Consumer Goods Company"
   },
   {
     "category": "Activity",
     "name": "Sports Widget",
-    "price": "122.99",
-    "sale_price": "109",
+    "price": 122.99,
+    "sale_price": 109,
     "subcategory": "Sports",
     "brand": "Shipbuilding, Incorporated"
   },
   {
     "category": "Entertainment",
     "name": "Movie Tool",
-    "price": "131.99",
-    "sale_price": "91.95",
+    "price": 131.99,
+    "sale_price": 91.95,
     "subcategory": "Movie",
     "brand": "Building Materials Co."
   },
   {
     "category": "Electronics",
     "name": "Camera Equipment",
-    "price": "26.95",
-    "sale_price": "23.99",
+    "price": 26.95,
+    "sale_price": 23.99,
     "subcategory": "Camera",
     "brand": "Design, LLC"
   },
   {
     "category": "Activity",
     "name": "Outdoors Supplies",
-    "price": "17.95",
-    "sale_price": "11.95",
+    "price": 17.95,
+    "sale_price": 11.95,
     "subcategory": "Outdoors",
     "brand": "Package Delivery, Incorporated"
   },
   {
     "category": "Clothing",
     "name": "Kids Attachment",
-    "price": "72.95",
-    "sale_price": "50.95",
+    "price": 72.95,
+    "sale_price": 50.95,
     "subcategory": "Kids",
     "brand": "Food Production Corp."
   },
   {
     "category": "Home",
     "name": "Cleaning Paraphernalia",
-    "price": "34.99",
-    "sale_price": "30.99",
+    "price": 34.99,
+    "sale_price": 30.99,
     "subcategory": "Cleaning",
     "brand": "Insurance Co."
   },
   {
     "category": "Entertainment",
     "name": "Movie Widget",
-    "price": "88.99",
-    "sale_price": "70.99",
+    "price": 88.99,
+    "sale_price": 70.99,
     "subcategory": "Movie",
     "brand": "Containers, Inc."
   },
   {
     "category": "Pets",
     "name": "Dog Mechanism",
-    "price": "199",
-    "sale_price": "139",
+    "price": 199,
+    "sale_price": 139,
     "subcategory": "Dog",
     "brand": "Cosmetics, Ltd."
   },
   {
     "category": "Activity",
     "name": "Outdoors Kit",
-    "price": "166.99",
-    "sale_price": "132",
+    "price": 166.99,
+    "sale_price": 132,
     "subcategory": "Outdoors",
     "brand": "Recruiting Co."
   },
   {
     "category": "Activity",
     "name": "Sports Attachment",
-    "price": "83.95",
-    "sale_price": "66.99",
+    "price": 83.95,
+    "sale_price": 66.99,
     "subcategory": "Sports",
     "brand": "E-Learning, LLC"
   },
   {
     "category": "Activity",
     "name": "Camping Thingamajig",
-    "price": "127",
-    "sale_price": "88.95",
+    "price": 127,
+    "sale_price": 88.95,
     "subcategory": "Camping",
     "brand": "Machinery Corp."
   },
   {
     "category": "Home",
     "name": "Gardening Component",
-    "price": "50.99",
-    "sale_price": "35.95",
+    "price": 50.99,
+    "sale_price": 35.95,
     "subcategory": "Gardening",
     "brand": "Art, Inc."
   },
   {
     "category": "Home",
     "name": "Storage Apparatus",
-    "price": "191.95",
-    "sale_price": "133",
+    "price": 191.95,
+    "sale_price": 133,
     "subcategory": "Storage",
     "brand": "Travel, Incorporated"
   },
   {
     "category": "Electronics",
     "name": "Technology Thingamajig",
-    "price": "39.95",
-    "sale_price": "35",
+    "price": 39.95,
+    "sale_price": 35,
     "subcategory": "Technology",
     "brand": "Packaging, Ltd."
   },
   {
     "category": "Pets",
     "name": "Cat Whatchamacallit",
-    "price": "16.95",
-    "sale_price": "11",
+    "price": 16.95,
+    "sale_price": 11,
     "subcategory": "Cat",
     "brand": "Metals, Incorporated"
   },
   {
     "category": "Clothing",
     "name": "Mens Mechanism",
-    "price": "74.99",
-    "sale_price": "66.99",
+    "price": 74.99,
+    "sale_price": 66.99,
     "subcategory": "Mens",
     "brand": "Computer Networking Corp."
   },
   {
     "category": "Pets",
     "name": "Aquarium Contraption",
-    "price": "53.95",
-    "sale_price": "47.99",
+    "price": 53.95,
+    "sale_price": 47.99,
     "subcategory": "Aquarium",
     "brand": "Banking, LLC"
   },
   {
     "category": "Activity",
     "name": "Biking Device",
-    "price": "88.99",
-    "sale_price": "79",
+    "price": 88.99,
+    "sale_price": 79,
     "subcategory": "Biking",
     "brand": "Fashion Co."
   },
   {
     "category": "Beauty",
     "name": "Makeup Contraption",
-    "price": "86.99",
-    "sale_price": "77.95",
+    "price": 86.99,
+    "sale_price": 77.95,
     "subcategory": "Makeup",
     "brand": "Services, Inc."
   },
   {
     "category": "Electronics",
     "name": "Camera Tool",
-    "price": "24.95",
-    "sale_price": "14.99",
+    "price": 24.95,
+    "sale_price": 14.99,
     "subcategory": "Camera",
     "brand": "Mechanical Engineering Co."
   },
   {
     "category": "Activity",
     "name": "Swimming Mechanism",
-    "price": "50.95",
-    "sale_price": "40.99",
+    "price": 50.95,
+    "sale_price": 40.99,
     "subcategory": "Swimming",
     "brand": "Human Resources, LLC"
   },
   {
     "category": "Home",
     "name": "Storage Thingamajig",
-    "price": "68.99",
-    "sale_price": "40.99",
+    "price": 68.99,
+    "sale_price": 40.99,
     "subcategory": "Storage",
     "brand": "Biotechnology, Ltd."
   },
   {
     "category": "Entertainment",
     "name": "Book Attachment",
-    "price": "149.99",
-    "sale_price": "89.95",
+    "price": 149.99,
+    "sale_price": 89.95,
     "subcategory": "Book",
     "brand": "Travel, Incorporated"
   },
   {
     "category": "Entertainment",
     "name": "Party Gear",
-    "price": "48.99",
-    "sale_price": "33.95",
+    "price": 48.99,
+    "sale_price": 33.95,
     "subcategory": "Party",
     "brand": "The Web Design Company"
   },
   {
     "category": "Activity",
     "name": "Fitness Device",
-    "price": "184.99",
-    "sale_price": "147.95",
+    "price": 184.99,
+    "sale_price": 147.95,
     "subcategory": "Fitness",
     "brand": "Facilities Services Corp."
   },
   {
     "category": "Home",
     "name": "Cleaning Device",
-    "price": "76.99",
-    "sale_price": "68.95",
+    "price": 76.99,
+    "sale_price": 68.95,
     "subcategory": "Cleaning",
     "brand": "Machinery, Ltd."
   },
   {
     "category": "Home",
     "name": "Cleaning Gizmo",
-    "price": "54.95",
-    "sale_price": "48.95",
+    "price": 54.95,
+    "sale_price": 48.95,
     "subcategory": "Cleaning",
     "brand": "Marketing, Inc."
   },
   {
     "category": "Activity",
     "name": "Camping Kit",
-    "price": "153.99",
-    "sale_price": "91.95",
+    "price": 153.99,
+    "sale_price": 91.95,
     "subcategory": "Camping",
     "brand": "Packaging Co."
   },
   {
     "category": "Beauty",
     "name": "Bath Gizmo",
-    "price": "174.99",
-    "sale_price": "156",
+    "price": 174.99,
+    "sale_price": 156,
     "subcategory": "Bath",
     "brand": "Security, Inc."
   },
   {
     "category": "Automotive",
     "name": "Tire Gizmo",
-    "price": "144",
-    "sale_price": "100.95",
+    "price": 144,
+    "sale_price": 100.95,
     "subcategory": "Tire",
     "brand": "The Recruiting Company"
   },
   {
     "category": "Home",
     "name": "Furniture Thingamajig",
-    "price": "115",
-    "sale_price": "69.99",
+    "price": 115,
+    "sale_price": 69.99,
     "subcategory": "Furniture",
     "brand": "Wireless Co."
   },
   {
     "category": "Home",
     "name": "Kitchen Whatchamacallit",
-    "price": "29.95",
-    "sale_price": "26",
+    "price": 29.95,
+    "sale_price": 26,
     "subcategory": "Kitchen",
     "brand": "Jewelry, Ltd."
   },
   {
     "category": "Activity",
     "name": "Camping Thingamajig",
-    "price": "160.99",
-    "sale_price": "112",
+    "price": 160.99,
+    "sale_price": 112,
     "subcategory": "Camping",
     "brand": "Leisure Co."
   },
   {
     "category": "Entertainment",
     "name": "Movie Instrument",
-    "price": "138.95",
-    "sale_price": "96.95",
+    "price": 138.95,
+    "sale_price": 96.95,
     "subcategory": "Movie",
     "brand": "Defense Corp."
   },
   {
     "category": "Health",
     "name": "Nutrition Implement",
-    "price": "23.99",
-    "sale_price": "13.99",
+    "price": 23.99,
+    "sale_price": 13.99,
     "subcategory": "Nutrition",
     "brand": "Metals, Inc."
   },
   {
     "category": "Home",
     "name": "Dining Gadget",
-    "price": "35.99",
-    "sale_price": "21.99",
+    "price": 35.99,
+    "sale_price": 21.99,
     "subcategory": "Dining",
     "brand": "Paper Products, Incorporated"
   },
   {
     "category": "Automotive",
     "name": "Car Paraphernalia",
-    "price": "197.95",
-    "sale_price": "157.99",
+    "price": 197.95,
+    "sale_price": 157.99,
     "subcategory": "Car",
     "brand": "Management Consulting, Ltd."
   },
   {
     "category": "Health",
     "name": "Vitamin Item",
-    "price": "138",
-    "sale_price": "82",
+    "price": 138,
+    "sale_price": 82,
     "subcategory": "Vitamin",
     "brand": "The Wine Company"
   },
   {
     "category": "Clothing",
     "name": "Kids Attachment",
-    "price": "57.99",
-    "sale_price": "39.99",
+    "price": 57.99,
+    "sale_price": 39.99,
     "subcategory": "Kids",
     "brand": "Public Relations Corp."
   },
   {
     "category": "Beauty",
     "name": "Makeup Implement",
-    "price": "35.99",
-    "sale_price": "31.95",
+    "price": 35.99,
+    "sale_price": 31.95,
     "subcategory": "Makeup",
     "brand": "The Writing Company"
   },
   {
     "category": "Clothing",
     "name": "Womens Paraphernalia",
-    "price": "101",
-    "sale_price": "90.95",
+    "price": 101,
+    "sale_price": 90.95,
     "subcategory": "Womens",
     "brand": "Pharmaceuticals Co."
   },
   {
     "category": "Electronics",
     "name": "Technology Gizmo",
-    "price": "33.95",
-    "sale_price": "26.95",
+    "price": 33.95,
+    "sale_price": 26.95,
     "subcategory": "Technology",
     "brand": "Business Supplies, Inc."
   },
   {
     "category": "Electronics",
     "name": "Phone Supplies",
-    "price": "129.99",
-    "sale_price": "77",
+    "price": 129.99,
+    "sale_price": 77,
     "subcategory": "Phone",
     "brand": "Business Equipment, Inc."
   },
   {
     "category": "Entertainment",
     "name": "Music Paraphernalia",
-    "price": "13.95",
-    "sale_price": "7",
+    "price": 13.95,
+    "sale_price": 7,
     "subcategory": "Music",
     "brand": "Civil Engineering, Incorporated"
   },
   {
     "category": "Health",
     "name": "First Aid Thingamajig",
-    "price": "120",
-    "sale_price": "96",
+    "price": 120,
+    "sale_price": 96,
     "subcategory": "First Aid",
     "brand": "Building Materials, LLC"
   },
   {
     "category": "Activity",
     "name": "Biking Whatchamacallit",
-    "price": "119.99",
-    "sale_price": "83",
+    "price": 119.99,
+    "sale_price": 83,
     "subcategory": "Biking",
     "brand": "Package Delivery Corp."
   },
   {
     "category": "Entertainment",
     "name": "Music Apparatus",
-    "price": "48.95",
-    "sale_price": "28",
+    "price": 48.95,
+    "sale_price": 28,
     "subcategory": "Music",
     "brand": "Facilities Services, LLC"
   },
   {
     "category": "Home",
     "name": "Gardening Equipment",
-    "price": "141.95",
-    "sale_price": "126.95",
+    "price": 141.95,
+    "sale_price": 126.95,
     "subcategory": "Gardening",
     "brand": "Gambling Co."
   },
   {
     "category": "Health",
     "name": "Nutrition Thingamajig",
-    "price": "97.95",
-    "sale_price": "67",
+    "price": 97.95,
+    "sale_price": 67,
     "subcategory": "Nutrition",
     "brand": "International Development, Inc."
   },
   {
     "category": "Pets",
     "name": "Cat Equipment",
-    "price": "131.99",
-    "sale_price": "104.95",
+    "price": 131.99,
+    "sale_price": 104.95,
     "subcategory": "Cat",
     "brand": "Security, Inc."
   },
   {
     "category": "Entertainment",
     "name": "Movie Whatchamacallit",
-    "price": "60",
-    "sale_price": "36.95",
+    "price": 60,
+    "sale_price": 36.95,
     "subcategory": "Movie",
     "brand": "Biotechnology, Incorporated"
   },
   {
     "category": "Entertainment",
     "name": "Movie Whatchamacallit",
-    "price": "61",
-    "sale_price": "48.99",
+    "price": 61,
+    "sale_price": 48.99,
     "subcategory": "Movie",
     "brand": "Printing Co."
   },
   {
     "category": "Pets",
     "name": "Dog Accessory",
-    "price": "129",
-    "sale_price": "90",
+    "price": 129,
+    "sale_price": 90,
     "subcategory": "Dog",
     "brand": "Computer Networking, Ltd."
   },
   {
     "category": "Automotive",
     "name": "Engine Device",
-    "price": "121.95",
-    "sale_price": "84.99",
+    "price": 121.95,
+    "sale_price": 84.99,
     "subcategory": "Engine",
     "brand": "Semiconductors Co."
   },
   {
     "category": "Health",
     "name": "Nutrition Contraption",
-    "price": "63.99",
-    "sale_price": "56.95",
+    "price": 63.99,
+    "sale_price": 56.95,
     "subcategory": "Nutrition",
     "brand": "Business Supplies Corp."
   },
   {
     "category": "Home",
     "name": "Furniture Whatchamacallit",
-    "price": "18",
-    "sale_price": "10",
+    "price": 18,
+    "sale_price": 10,
     "subcategory": "Furniture",
     "brand": "Financial Services, Inc."
   },
   {
     "category": "Home",
     "name": "Furniture Accessory",
-    "price": "155.95",
-    "sale_price": "124.99",
+    "price": 155.95,
+    "sale_price": 124.99,
     "subcategory": "Furniture",
     "brand": "Architecture, Ltd."
   },
   {
     "category": "Clothing",
     "name": "Womens Paraphernalia",
-    "price": "169",
-    "sale_price": "101.95",
+    "price": 169,
+    "sale_price": 101.95,
     "subcategory": "Womens",
     "brand": "Utilities, Ltd."
   },
   {
     "category": "Automotive",
     "name": "Engine Gear",
-    "price": "82.99",
-    "sale_price": "65",
+    "price": 82.99,
+    "sale_price": 65,
     "subcategory": "Engine",
     "brand": "Publishing, Ltd."
   },
   {
     "category": "Home",
     "name": "Dining Item",
-    "price": "88.95",
-    "sale_price": "79",
+    "price": 88.95,
+    "sale_price": 79,
     "subcategory": "Dining",
     "brand": "Writing, LLC"
   },
   {
     "category": "Activity",
     "name": "Sports Mechanism",
-    "price": "95.99",
-    "sale_price": "85.95",
+    "price": 95.99,
+    "sale_price": 85.95,
     "subcategory": "Sports",
     "brand": "Network Security, Inc."
   },
   {
     "category": "Clothing",
     "name": "Kids Thingamajig",
-    "price": "86.95",
-    "sale_price": "60",
+    "price": 86.95,
+    "sale_price": 60,
     "subcategory": "Kids",
     "brand": "Internet, Incorporated"
   },
   {
     "category": "Home",
     "name": "Bedding Instrument",
-    "price": "79.99",
-    "sale_price": "63.99",
+    "price": 79.99,
+    "sale_price": 63.99,
     "subcategory": "Bedding",
     "brand": "Chemicals, Ltd."
   },
   {
     "category": "Clothing",
     "name": "Womens Contraption",
-    "price": "180.95",
-    "sale_price": "125",
+    "price": 180.95,
+    "sale_price": 125,
     "subcategory": "Womens",
     "brand": "Business Supplies, LLC"
   },
   {
     "category": "Beauty",
     "name": "Hair Care Apparatus",
-    "price": "15.95",
-    "sale_price": "9.99",
+    "price": 15.95,
+    "sale_price": 9.99,
     "subcategory": "Hair Care",
     "brand": "Wireless Co."
   },
   {
     "category": "Clothing",
     "name": "Kids Gear",
-    "price": "32.95",
-    "sale_price": "22",
+    "price": 32.95,
+    "sale_price": 22,
     "subcategory": "Kids",
     "brand": "The Internet Company"
   },
   {
     "category": "Pets",
     "name": "Cat Doodad",
-    "price": "149.95",
-    "sale_price": "134.95",
+    "price": 149.95,
+    "sale_price": 134.95,
     "subcategory": "Cat",
     "brand": "Accounting, LLC"
   },
   {
     "category": "Home",
     "name": "Cooking Supplies",
-    "price": "149",
-    "sale_price": "104.99",
+    "price": 149,
+    "sale_price": 104.99,
     "subcategory": "Cooking",
     "brand": "Journalism Corp."
   },
   {
     "category": "Entertainment",
     "name": "Book Supplies",
-    "price": "10.95",
-    "sale_price": "7.99",
+    "price": 10.95,
+    "sale_price": 7.99,
     "subcategory": "Book",
     "brand": "Animation, Ltd."
   },
   {
     "category": "Beauty",
     "name": "Makeup Gadget",
-    "price": "91.95",
-    "sale_price": "54.95",
+    "price": 91.95,
+    "sale_price": 54.95,
     "subcategory": "Makeup",
     "brand": "The Industrial Engineering Company"
   },
   {
     "category": "Entertainment",
     "name": "Music Attachment",
-    "price": "157.95",
-    "sale_price": "109.95",
+    "price": 157.95,
+    "sale_price": 109.95,
     "subcategory": "Music",
     "brand": "Motion Pictures Co."
   },
   {
     "category": "Entertainment",
     "name": "Music Thingamajig",
-    "price": "11.95",
-    "sale_price": "6.99",
+    "price": 11.95,
+    "sale_price": 6.99,
     "subcategory": "Music",
     "brand": "Farming Corp."
   },
   {
     "category": "Home",
     "name": "Dining Tool",
-    "price": "97.95",
-    "sale_price": "77.99",
+    "price": 97.95,
+    "sale_price": 77.99,
     "subcategory": "Dining",
     "brand": "The Semiconductors Company"
   },
   {
     "category": "Clothing",
     "name": "Jewelry Apparatus",
-    "price": "32",
-    "sale_price": "25",
+    "price": 32,
+    "sale_price": 25,
     "subcategory": "Jewelry",
     "brand": "Mortgages, LLC"
   },
   {
     "category": "Home",
     "name": "Cooking Apparatus",
-    "price": "59.99",
-    "sale_price": "47.95",
+    "price": 59.99,
+    "sale_price": 47.95,
     "subcategory": "Cooking",
     "brand": "The Wine Company"
   },
   {
     "category": "Activity",
     "name": "Camping Machine",
-    "price": "71.95",
-    "sale_price": "49.95",
+    "price": 71.95,
+    "sale_price": 49.95,
     "subcategory": "Camping",
     "brand": "The Dairy Company"
   },
   {
     "category": "Clothing",
     "name": "Womens Thingamajig",
-    "price": "45",
-    "sale_price": "36",
+    "price": 45,
+    "sale_price": 36,
     "subcategory": "Womens",
     "brand": "Animation Co."
   },
   {
     "category": "Electronics",
     "name": "Camera Instrument",
-    "price": "77.95",
-    "sale_price": "53",
+    "price": 77.95,
+    "sale_price": 53,
     "subcategory": "Camera",
     "brand": "Mining Corp."
   },
   {
     "category": "Beauty",
     "name": "Skin Care Item",
-    "price": "138",
-    "sale_price": "124",
+    "price": 138,
+    "sale_price": 124,
     "subcategory": "Skin Care",
     "brand": "Human Resources, LLC"
   },
   {
     "category": "Automotive",
     "name": "Engine Gear",
-    "price": "101",
-    "sale_price": "90.95",
+    "price": 101,
+    "sale_price": 90.95,
     "subcategory": "Engine",
     "brand": "The Security Company"
   }
