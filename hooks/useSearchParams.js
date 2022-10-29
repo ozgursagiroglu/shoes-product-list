@@ -24,7 +24,7 @@ function useSearchParams() {
     [query]
   );
 
-  return { stringify };
+  return { stringify, query };
 }
 
 export default useSearchParams;

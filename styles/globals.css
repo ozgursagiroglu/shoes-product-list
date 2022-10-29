@@ -11,8 +11,9 @@ body {
     BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
     'Noto Color Emoji';
-  font-weight: 400;
   letter-spacing: -0.25px;
+
+  @apply font-normal text-gray-600;
 }
 
 .logo {
@@ -23,4 +24,26 @@ body {
 .product-image {
   @apply relative h-0 overflow-hidden mb-2;
   padding-bottom: 140%;
+}
+
+.link {
+  @apply relative;
+}
+
+.link:after {
+  content: '';
+  @apply w-full h-0.5 bg-black absolute top-full left-0 transition-transform scale-x-0;
+}
+
+.link:hover:after,
+.link-active:after {
+  @apply scale-x-100;
+}
+
+.column-icon {
+  @apply flex items-center gap-0.5;
+}
+
+.column-icon span {
+  @apply rounded-sm w-1 h-4 bg-gray-500;
 }

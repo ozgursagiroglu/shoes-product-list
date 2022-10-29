@@ -25,25 +25,6 @@ const ProductFilters = ({ data }) => {
     return prevFilters;
   });
 
-  const combinedFilters = useMemo(() => {
-    const filterObject = {
-      brands: [],
-      categories: [],
-    };
-
-    data.items.forEach(product => {
-      if (!filterObject.brands.includes(product.brand)) {
-        filterObject.brands.push(product.brand);
-      }
-
-      if (!filterObject.categories.includes(product.category)) {
-        filterObject.categories.push(product.category);
-      }
-    });
-
-    return filterObject;
-  }, [data]);
-
   const handleFilterChange = useCallback(e => {
     const { name, value, checked } = e.currentTarget;
 
@@ -69,14 +50,14 @@ const ProductFilters = ({ data }) => {
     <>
       <FilterSection
         title="Categories"
-        data={combinedFilters.categories}
+        data={data.filters.categories}
         filterKey="category"
         isMultipleSelect={false}
       />
 
       <FilterSection
         title="Brands"
-        data={combinedFilters.brands}
+        data={data.filters.brands}
         filterKey="brands"
         isMultipleSelect={true}
         handleFilterChange={handleFilterChange}

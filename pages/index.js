@@ -19,10 +19,10 @@ export default function Home({ data }) {
       <Header />
 
       <div className="container mx-auto flex items-start flex-grow">
-        <div className="w-64 flex-shrink-0">
+        <div className="hidden lg:block w-64 flex-shrink-0 pt-12">
           <ProductFilters data={data} />
         </div>
-        <div className="w-full pl-6">
+        <div className="w-full px-6 lg:pr-0">
           <div className="mb-12">
             <ProductListOptions />
             <ProductList data={data} />
@@ -35,11 +35,11 @@ export default function Home({ data }) {
 }
 
 export async function getServerSideProps(ctx) {
-  const { category, brands, sort = 'asc', page = 1 } = ctx.query;
+  const { category, brands, sort, page = 1 } = ctx.query;
 
   const { data } = await client.query({
     query: gql`
-      query ($filter: ProductsFilter, $sort: Sort, $page: Int) {
+      query ($filter: ProductListFilter, $sort: Sort, $page: Int) {
         getProducts(filter: $filter, sort: $sort, page: $page) {
           items {
             category
@@ -50,6 +50,16 @@ export async function getServerSideProps(ctx) {
             subcategory
             brand
           }
+          filters {
+            categories {
+              name
+              value
+            }
+            brands {
+              name
+              value
+            }
+          }
           meta {
             page
             limit
@@ -59,7 +69,7 @@ export async function getServerSideProps(ctx) {
       }
     `,
     variables: {
-      page,
+      page: +page,
       filter: {
         ...(category ? { category } : null),
         ...(brands ? { brand: brands } : null),
@@ -67,7 +77,6 @@ export async function getServerSideProps(ctx) {
       sort: sort,
     },
   });
-
   return {
     props: {
       data: data.getProducts,

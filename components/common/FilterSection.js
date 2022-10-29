@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import useSearchParams from '../../hooks/useSearchParams';
 import Checkbox from '../common/Checkbox';
+import cx from 'classnames';
 
 const FilterSection = ({
   title,
@@ -32,23 +33,28 @@ const FilterSection = ({
           isMultipleSelect ? (
             <Checkbox
               name={filterKey}
-              value={item}
-              key={item}
+              value={item.value}
+              key={item.name}
               onChange={handleFilterChange}
-              checked={selectedFilters?.[filterKey]?.includes(item)}>
-              {item}
+              checked={selectedFilters?.[filterKey]?.includes(item.value)}>
+              {item.name}
             </Checkbox>
           ) : (
             <Link
               passHref
-              key={item}
+              key={item.name}
               href={
                 !isMultipleSelect
-                  ? `/?${filterKey}=${item}`
-                  : `/?${filterKey}=${currentQuery},${encodeURI(item)}`
+                  ? `/?${filterKey}=${item.value}`
+                  : `/?${filterKey}=${currentQuery},${encodeURI(item.value)}`
               }
-              className="text-black transition-colors hover:text-orange-500 text-sm">
-              {item}
+              className={cx(
+                'text-black transition-colors hover:text-orange-500 text-sm',
+                {
+                  'text-orange-500': currentQuery === item.value,
+                }
+              )}>
+              {item.name}
             </Link>
           )
         )}

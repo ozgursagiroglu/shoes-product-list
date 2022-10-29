@@ -17,14 +17,8 @@ export const typeDefs = gql`
     page: Int
   }
 
-  type ProductList {
-    items: [Product]
-    meta: ProductListMeta
-  }
-
-  input ProductsFilter {
+  input ProductListFilter {
     category: String
-    name: String
     brand: [String]
   }
 
@@ -33,7 +27,23 @@ export const typeDefs = gql`
     desc
   }
 
+  type Filter {
+    name: String
+    value: String
+  }
+
+  type Filters {
+    categories: [Filter]
+    brands: [Filter]
+  }
+
+  type ProductList {
+    items: [Product]
+    filters: Filters
+    meta: ProductListMeta
+  }
+
   type Query {
-    getProducts(filter: ProductsFilter, sort: Sort, page: Int): ProductList
+    getProducts(filter: ProductListFilter, sort: Sort, page: Int): ProductList
   }
 `;
