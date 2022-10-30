@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import useSearchParams from '../hooks/useSearchParams';
 import cx from 'classnames';
+import useSearchParams from '@hooks/useSearchParams';
 
 const ProductListPagination = ({ data }) => {
   const { meta } = data;

@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import useSearchParams from '../../hooks/useSearchParams';
-import Checkbox from '../common/Checkbox';
 import cx from 'classnames';
+import useSearchParams from '@hooks/useSearchParams';
+import Checkbox from '../Checkbox/Checkbox';
 
 const FilterSection = ({
   title,
@@ -48,11 +48,7 @@ const FilterSection = ({
             <Link
               passHref
               key={item.name}
-              href={
-                !isMultipleSelect
-                  ? `/?${filterKey}=${item.value}`
-                  : `/?${filterKey}=${currentQuery},${encodeURI(item.value)}`
-              }
+              href={stringify({ [filterKey]: item.value })}
               className={cx('text-black transition-colors link', {
                 'link-active': currentQuery === item.value,
               })}>

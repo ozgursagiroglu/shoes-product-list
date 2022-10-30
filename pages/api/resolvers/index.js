@@ -1,5 +1,5 @@
-import MOCK from '../../../mock/products.json';
-import getImageIndex from '../../../utils/getImageIndex';
+import MOCK from '@mock/products.json';
+import getImageIndex from '@utils/getImageIndex';
 
 const MOCK_DATA = MOCK.map((item, index) => ({
   ...item,

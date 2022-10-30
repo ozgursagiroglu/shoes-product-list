@@ -1,13 +1,13 @@
-import Head from 'next/head';
-import Header from '../components/common/Header';
-import ProductList from '../components/ProductList';
-import { gql } from '@apollo/client';
-import client from '../apollo-client';
-import ProductFilters from '../components/ProductFilters';
-import ProductListOptions from '../components/ProductListOptions';
-import ProductListPagination from '../components/ProductListPagination';
 import { useCallback, useState } from 'react';
+import Head from 'next/head';
+import { gql } from '@apollo/client';
 import cx from 'classnames';
+import ProductFilters from '@components/Product/ProductFilters/ProductFilters';
+import ProductList from '@components/Product/ProductList/ProductList';
+import ProductListOptions from '@components/Product/ProductListOptions/ProductListOptions';
+import ProductListPagination from '@components/Product/ProductListPagination/ProductListPagination';
+import Header from '@components/common/Header/Header';
+import client from '../apollo-client';
 
 export default function Home({ data }) {
   const [column, setColumn] = useState(4);
@@ -38,7 +38,7 @@ export default function Home({ data }) {
             }
           )}>
           <button
-            className="text-4xl text-black font-light absolute top-4 right-4"
+            className="text-4xl text-black font-light absolute top-4 right-4 lg:hidden"
             onClick={handleToggleFilters}>
             &times;
           </button>

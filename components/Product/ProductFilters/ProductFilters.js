@@ -1,8 +1,8 @@
+import { useCallback, useState } from 'react';
 import { useRouter } from 'next/router';
-import { useCallback, useMemo, useState } from 'react';
-import FilterSection from './common/FilterSection';
-import useSearchParams from '../hooks/useSearchParams';
-import { MULTIPLE_FILTER_KEYS } from '../constants/app';
+import FilterSection from '@components/common/FilterSection/FilterSection';
+import useSearchParams from '@hooks/useSearchParams';
+import { MULTIPLE_FILTER_KEYS } from '@constants/app';
 
 const ProductFilters = ({ data }) => {
   const router = useRouter();

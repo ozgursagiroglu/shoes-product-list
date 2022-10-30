@@ -1,3 +1,14 @@
 {
-  "extends": ["next", "prettier"]
+  "root": true,
+  "plugins": ["prettier"],
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-console": 1, // Means warning
+    "prettier/prettier": 2, // Means error
+    "no-useless-catch": 0
+  }
 }

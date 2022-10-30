@@ -1,7 +1,7 @@
+import React, { useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useMemo } from 'react';
-import ProductBadge from './ProductBadge';
+import ProductBadge from '../ProductBadge/ProductBadge';
 
 const ProductItem = ({ data, index }) => {
   const badges = useMemo(

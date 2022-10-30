@@ -1,5 +1,5 @@
 import cx from 'classnames';
-import ProductItem from './common/ProductItem';
+import ProductItem from '../ProductItem/ProductItem';
 
 const ProductList = ({ data, column }) => {
   return (
