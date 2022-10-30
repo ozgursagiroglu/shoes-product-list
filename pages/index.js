@@ -50,7 +50,7 @@ export default function Home({ data }) {
               onColumnChange={setColumn}
               onToggleFilters={handleToggleFilters}
             />
-            <ProductList data={data} column={column} />
+            <ProductList banner={data.banner} data={data} column={column} />
             <ProductListPagination data={data} />
           </div>
         </div>
@@ -74,6 +74,10 @@ export async function getServerSideProps(ctx) {
             sale_price
             subcategory
             brand
+          }
+          banner {
+            url
+            image
           }
           filters {
             categories {

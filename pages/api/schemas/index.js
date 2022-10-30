@@ -27,6 +27,11 @@ export const typeDefs = gql`
     desc
   }
 
+  type Banner {
+    url: String
+    image: String
+  }
+
   type Filter {
     name: String
     value: String
@@ -39,6 +44,7 @@ export const typeDefs = gql`
 
   type ProductList {
     items: [Product]
+    banner: Banner
     filters: Filters
     meta: ProductListMeta
   }

@@ -65,6 +65,10 @@ export const resolvers = {
       return {
         items: data.slice(offset, offset + PRODUCT_LIST_LIMIT),
         filters: availableFilters,
+        banner: {
+          url: '/',
+          image: '/product-images/banner.jpeg',
+        },
         meta: {
           total,
           page,
