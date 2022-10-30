@@ -51,9 +51,15 @@ const ProductItem = ({ data, index }) => {
       </Link>
       <div className="flex items-center justify-start text-sm lg:text-base">
         {data.price !== data.sale_price ? (
-          <span className="text-gray-500 line-through pr-1">${data.price}</span>
+          <span
+            data-testid="actual-price"
+            className="text-gray-500 line-through pr-1">
+            ${data.price}
+          </span>
         ) : null}
-        <span className="text-orange-500 font-medium">${data.sale_price}</span>
+        <span data-testid="sale-price" className="text-orange-500 font-medium">
+          ${data.sale_price}
+        </span>
       </div>
     </div>
   );

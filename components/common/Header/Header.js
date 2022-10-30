@@ -6,7 +6,9 @@ const Header = () => {
       <div></div>
       <div className="text-center">
         <Link href="/" passHref>
-          <span className="logo">SHOES</span>
+          <span className="logo" data-testid="logo">
+            SHOES
+          </span>
         </Link>
       </div>
       <div></div>

@@ -24,6 +24,7 @@ const ProductListPagination = ({ data }) => {
         <Link
           href={stringify({ page: index + 1 })}
           passHref
+          data-testid="pagination-item"
           className={cx(
             'w-8 h-8 border rounded-sm inline-flex items-center justify-center text-sm',
             {

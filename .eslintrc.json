@@ -10,5 +10,8 @@
     "no-console": 1, // Means warning
     "prettier/prettier": 2, // Means error
     "no-useless-catch": 0
+  },
+  "env": {
+    "jest": true
   }
 }

@@ -9,6 +9,7 @@ const ProductListOptions = ({ onColumnChange, onToggleFilters }) => {
     <div className="flex justify-between align-center mb-6">
       <button
         className="lg:hidden text-black inline-flex items-center"
+        data-testid="filters-button"
         onClick={onToggleFilters}>
         <svg
           width="20px"
@@ -43,14 +44,16 @@ const ProductListOptions = ({ onColumnChange, onToggleFilters }) => {
         <span className="text-sm">Column:</span>
         <button
           className="column-icon border p-1 rounded"
-          onClick={() => onColumnChange(3)}>
+          onClick={() => onColumnChange(3)}
+          data-testid="column-button-3">
           <span />
           <span />
           <span />
         </button>
         <button
           className="column-icon border p-1 rounded"
-          onClick={() => onColumnChange(4)}>
+          onClick={() => onColumnChange(4)}
+          data-testid="column-button-4">
           <span />
           <span />
           <span />
@@ -80,6 +83,11 @@ const ProductListOptions = ({ onColumnChange, onToggleFilters }) => {
       </div>
     </div>
   );
+};
+
+ProductListOptions.defaultProps = {
+  onColumnChange: () => {},
+  onToggleFilters: () => {},
 };
 
 export default ProductListOptions;

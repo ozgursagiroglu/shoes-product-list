@@ -66,6 +66,7 @@ const ProductFilters = ({ data }) => {
       />
 
       <button
+        data-testid="apply-button"
         className="bg-orange-500 border-none h-10 w-full font-medium text-white rounded-sm hover:shadow-md transition-shadow"
         onClick={handleApplyFilters}>
         Apply

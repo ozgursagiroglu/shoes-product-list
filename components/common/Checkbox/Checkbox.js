@@ -13,6 +13,7 @@ const Checkbox = ({ name, value, checked, children, onChange }) => {
         checked={checked}
         onChange={onChange}
         className="fixed top-0 left-0 w-0 h-0 opacity-0"
+        data-testid="checkbox"
       />
       <div
         className={cx(
@@ -26,7 +27,7 @@ const Checkbox = ({ name, value, checked, children, onChange }) => {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth={2}
+            strokeWidth="2"
             stroke="currentColor"
             className="w-3 h-3 text-white absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4">
             <path
