@@ -9,6 +9,8 @@ describe('Product Filters', () => {
     render(<ProductFilters data={{ filters: {} }} />);
 
     expect(screen.getByText('Apply')).toBeInTheDocument();
+    expect(screen.getByText('Categories')).toBeInTheDocument();
+    expect(screen.getByText('Brands')).toBeInTheDocument();
   });
 
   test('should click to apply button', () => {
